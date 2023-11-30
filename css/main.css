@@ -473,7 +473,7 @@ body {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #dfe3e5;
+  background: #eff1f3;
   border: 2px solid #0924f5;
 }
 /* Portfolio ==== Filtro*/
@@ -534,27 +534,113 @@ body {
   justify-content: center;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #6f7180;
+  color: #f0f1f5;
   font-size: 28px;
   text-align: center;
-  background: #149ddd;
+  background: #a8d9f0;
   transition: 0.3s;
   width: 50%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #70c3e9;
+  background: #f2f5f6;
 }
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid skyblue;
+  border-left: 1px solid rgb(245, 248, 249);
 }
-.portfolio .progress-wrap:hover::before {
+.portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 1;
 }
-.portfolio .progress-wrap:hover .portfolio-links {
+.portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+/*  Serviços  */
+
+
+
+
+/*  Avaliações  */
+
+
+
+
+
+/*  formulario  */
+.contact .info {
+  padding: 30px;
+  background: #eaebf0bd;
+  width: 100%;
+  box-shadow: #a8d9f0;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #0924f5;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #a8a9b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #173b6c;
+}
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #149ddd;
+}
+.contact .info .email p {
+  padding-top: 5px;
+}
+.contact .info .address:hover i,
+.contact .info .email :hover i,
+.contact .info .phone :hover i {
+  background: #a8d9f0;
+  color: blueviolet;
+}
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #e4edf9;
+  box-shadow: 0 0 24px #2c2f3f;
+}
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.contact .php-email-form input ,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .php-email-form input {
+  height: 44px ;
+}
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+.contact .php-email-form button [type=submit] {
+  background: #0924f5;
+  border: 0;
+  padding: 10px 24px;
+  color: cornsilk;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.contact .php-email-form button [type=submit]:hover {
+  background: #6f7180;
 }
